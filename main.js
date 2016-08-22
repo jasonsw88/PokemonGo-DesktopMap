@@ -249,7 +249,7 @@ function startPython(auth, code, lat, long, opts) {
     if (opts.radius && opts.radius != '') {
       cmdLine.push(opts.radius);
     } else {
-      cmdLine.push('7');
+      cmdLine.push('2');
     }
 
     // console.log(cmdLine);
